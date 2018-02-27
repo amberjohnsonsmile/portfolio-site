@@ -1,1 +1,47 @@
-@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400');
+
+body {
+  font-family: Lato, sans-serif;
+  font-weight: 100;
+}
+
+.nav-wrapper li, .side-nav li {
+  font-weight: 300;
+}
+
+.material-icons, .brand-logo, a, h1, h2 {
+  text-transform: uppercase;
+}
+
+.material-icons {
+  font-family: Lato, sans-serif;
+}
+
+.brand-logo {
+  margin-right: 1rem;
+}
+
+.full-name {
+  padding-top: 10rem;
+  text-align: center;
+}
+
+h1, h2 {
+  font-weight: 300;
+  color: rgb(77,77,77);
+}
+
+h1 {
+  display: inline;
+  letter-spacing: 1rem;
+}
+
+h2 {
+  text-align: center;
+  font-size: 1.5rem;
+  letter-spacing: .5rem;
+}
+
+.last-name {
+  color: #b2dfdb;
+}
