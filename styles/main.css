@@ -13,12 +13,8 @@ body {
   margin-right: 1rem;
 }
 
-.material-icons, .brand-logo, a, h1, h2 {
+.brand-logo, a, h1, h2 {
   text-transform: uppercase;
-}
-
-.material-icons {
-  font-family: Lato, sans-serif;
 }
 
 .full-name {
