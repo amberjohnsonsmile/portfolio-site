@@ -3,6 +3,9 @@
 /* Mobile view */
 
 body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
   font-family: Lato, sans-serif;
   font-weight: 100;
 }
@@ -22,6 +25,10 @@ nav .brand-logo {
 
 .brand-logo, a, h1, h2 {
   text-transform: uppercase;
+}
+
+main {
+  flex: 1 0 auto;
 }
 
 .full-name {
@@ -84,17 +91,30 @@ p {
   color: rgb(77,77,77);
 }
 
+.page-footer {
+  margin-top: 5rem;
+  padding: 0;
+}
+
+.footer-copyright {
+  text-transform: uppercase;
+}
+
+.footer-copyright img {
+  height: 2rem;
+}
+
 /* Desktop view */
 @media only screen
-  and (min-device-width: 480px) {
-    nav .brand-logo {
-      font-size: 2rem;
-      font-weight: 100;
-    }
-    .full-name {
-      padding-top: 15rem;
-    }
-    h3 {
-      padding-top: 15rem;
-    }
+and (min-device-width: 480px) {
+  nav .brand-logo {
+    font-size: 2rem;
+    font-weight: 100;
+  }
+  .full-name {
+    padding-top: 15rem;
+  }
+  h3 {
+    padding-top: 15rem;
+  }
 }
