@@ -31,14 +31,53 @@ h1 {
   display: inline;
   font-size: 3rem;
   letter-spacing: 1rem;
+  margin-right: -1rem;
 }
 
 h2 {
   text-align: center;
   font-size: 1.5rem;
   letter-spacing: .5rem;
+  margin-right: -.5rem;
 }
 
 .last-name {
   color: #b2dfdb;
+}
+
+h3 {
+  font-family: Lato, sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 10rem;
+  color: rgb(77, 77, 77);
+  font-weight: 300;
+  font-size: 1.5rem;
+  letter-spacing: .5rem;
+  margin-right: -.5rem;
+}
+
+hr {
+  margin-bottom: 5rem;
+  width: 9rem;
+  height: 0;
+  border: 1.5px solid #b2dfdb;
+}
+
+.row {
+  margin: 0 2rem;
+}
+
+@media only screen
+  and (min-device-width: 480px) {
+    .full-name {
+      padding-top: 15rem;
+    }
+    h3 {
+      padding-top: 15rem;
+    }
+}
+
+.card-action a {
+  font-weight: 500;
 }
