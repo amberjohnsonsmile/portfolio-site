@@ -8,7 +8,6 @@ body {
   flex-direction: column;
   font-family: Lato, sans-serif;
   font-weight: 100;
-  width: 100vw;
 }
 
 .nav-wrapper li, .side-nav li {
@@ -53,7 +52,6 @@ h2 {
   text-align: center;
   font-size: 1.5rem;
   letter-spacing: .5rem;
-  margin-right: -.5rem;
 }
 
 .last-name {
@@ -69,7 +67,6 @@ h3 {
   font-weight: 300;
   font-size: 1.5rem;
   letter-spacing: .5rem;
-  margin-right: -.5rem;
 }
 
 hr {
