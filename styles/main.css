@@ -91,27 +91,40 @@ p {
   color: rgb(77,77,77);
 }
 
-.page-footer {
+footer {
+  background: rgb(77, 77, 77);
+  height: 4rem;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  padding: 0 1rem;
   margin-top: 5rem;
-  padding: 0;
 }
 
 small {
   font-size: 1rem;
-}
-
-.footer-copyright {
   text-transform: uppercase;
+  color: white;
 }
 
-.footer-copyright img {
+footer a {
   height: 2rem;
   padding-left: 1rem;
+}
+
+footer img {
+  height: 100%;
 }
 
 /* Desktop view */
 @media only screen
 and (min-device-width: 480px) {
+  .mail {
+    padding-right: 3rem;
+  }
+  nav {
+    padding-left: 2rem;
+  }
   nav .brand-logo {
     font-size: 2rem;
     font-weight: 100;
@@ -121,5 +134,8 @@ and (min-device-width: 480px) {
   }
   h3 {
     padding-top: 15rem;
+  }
+  footer {
+    padding: 0 3rem;
   }
 }
