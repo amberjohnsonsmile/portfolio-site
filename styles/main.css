@@ -96,12 +96,17 @@ p {
   padding: 0;
 }
 
+small {
+  font-size: 1rem;
+}
+
 .footer-copyright {
   text-transform: uppercase;
 }
 
 .footer-copyright img {
   height: 2rem;
+  padding-left: 1rem;
 }
 
 /* Desktop view */
