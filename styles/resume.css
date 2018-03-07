@@ -1,0 +1,40 @@
+/* Mobile view */
+
+main {
+  text-align: center;
+}
+
+h3 {
+  padding-top: 5rem;
+}
+
+hr {
+  margin-bottom: 5rem;
+}
+
+.resume {
+  width: 90%;
+}
+
+main a {
+  display: block;
+  padding-right: 5%;
+}
+
+/* Desktop view */
+@media only screen
+and (min-device-width: 480px) {
+  h3 {
+    padding-top: 15rem;
+    font-size: 2rem;
+  }
+  hr {
+    margin-bottom: 15rem;
+  }
+  .resume {
+    width: 70%;
+  }
+  main a {
+    padding-right: 15%;
+  }
+}
