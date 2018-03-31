@@ -17,8 +17,20 @@ hr {
 }
 
 main a {
-  display: block;
+  display: inline-block;
+  float: right;
   padding-right: 5%;
+}
+
+main i {
+  margin: 0 !important;
+}
+
+main h4 {
+  color: #b2dfdb;
+  display: inline;
+  font-weight: 300;
+  font-size: 1rem;
 }
 
 /* Desktop view */
