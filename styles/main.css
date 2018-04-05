@@ -119,6 +119,7 @@ footer img {
 
 /* Desktop view */
 @media only screen
+/* and (min-device-width: 480px) { */
 and (min-device-width: 480px) {
   .mail {
     padding-right: 3rem;
@@ -128,7 +129,7 @@ and (min-device-width: 480px) {
   }
   nav .brand-logo {
     font-size: 2rem;
-    font-weight: 100;
+    letter-spacing: 0.3rem;
   }
   .full-name {
     padding-top: 15rem;
