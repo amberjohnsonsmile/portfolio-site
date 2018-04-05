@@ -73,8 +73,10 @@ h3 {
 hr {
   margin-bottom: 5rem;
   width: 9rem;
-  height: 0;
-  border: 1.5px solid #b2dfdb;
+  height: 3px;
+  color: #b2dfdb;
+  background: #b2dfdb;
+  border: none;
 }
 
 .row {
