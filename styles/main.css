@@ -62,7 +62,7 @@ h3 {
   font-family: Lato, sans-serif;
   text-transform: uppercase;
   text-align: center;
-  padding-top: 10rem;
+  padding-top: 5rem;
   color: rgb(77, 77, 77);
   font-weight: 300;
   font-size: 1.5rem;
@@ -136,6 +136,10 @@ and (min-device-width: 480px) {
   }
   h3 {
     padding-top: 15rem;
+    font-size: 2rem;
+  }
+  hr {
+    margin-bottom: 15rem;
   }
   footer {
     padding: 0 3rem;
