@@ -1,0 +1,14 @@
+/* Mobile view */
+
+.headshot {
+  width: 80%;
+  margin: 0 10%;
+  border-radius: 5%;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10% 10% 0 10%;
+}
