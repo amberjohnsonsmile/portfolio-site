@@ -2,7 +2,7 @@
 
 .headshot {
   width: 80%;
-  margin: 0 10%;
+  margin: 0 10% 10% 10%;
   border-radius: 5%;
 }
 
@@ -11,4 +11,22 @@
   flex-direction: column;
   justify-content: center;
   margin: 10% 10% 0 10%;
+}
+
+/* Desktop view */
+@media only screen and (min-device-width: 480px) {
+  hr {
+    margin-bottom: 0;
+  }
+  .headshot {
+    width: 40%;
+    height: 40%;
+    margin: 0 3rem 10% 0;
+  }
+  .description {
+    flex-direction: row;
+  }
+  p {
+    margin: 0 0 5% 0;
+  }
 }
